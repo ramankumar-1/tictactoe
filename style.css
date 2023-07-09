@@ -1,0 +1,73 @@
+* {
+    /* To disable Double-tap Zoom for touchscreen devices */
+    touch-action: manipulation;
+}
+
+body{
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+   font-size: 1.5rem;
+}
+
+h1{
+    text-align: center;
+}
+
+td{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60%;
+    width: 8vw;
+    height: 8vw;
+    text-align: center;
+    font-size:1.5rem;
+    border: 3px solid black; 
+}
+
+.playing-board-container{
+    display:flex;
+    padding: 0;
+    left:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.5rem;
+}
+
+.button-container{
+    text-align: center;
+}
+
+.result-display-container{
+    text-align: center;
+}
+
+#reset-button{
+    width: 10vw;
+    height: 4vw;
+    font-size: 25px;
+    font-family: inherit;
+}
+
+.x-cell{
+    background-color: lightskyblue;
+}
+
+.o-cell{
+    background-color: lightgreen;
+}
+
+/* CSS for Mobile devices */
+@media screen and (max-width: 1080px){
+    body{
+        font-size: 40px;
+    }
+    td{
+        width: 15vw;
+        height: 15vw;
+    }
+
+    #reset-button{
+        width: 30vw;
+        height: 8vw;
+        font-size: 50px;
+    }
+}

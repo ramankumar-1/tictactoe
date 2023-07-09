@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TIC-TAC-TOE</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <h1>
+            TIC-TAC-TOE
+        </h1>
+        
+        <div class="playing-board-container">
+            <table id="playing-board">
+                <tr>
+                    <td id="c1" class="cell"></td>
+                    <td id="c2" class="cell"></td>
+                    <td id="c3" class="cell"></td>
+                </tr>
+                <tr>
+                    <td id="c4" class="cell"></td>
+                    <td id="c5" class="cell"></td>
+                    <td id="c6" class="cell"></td>
+                </tr>
+                <tr>
+                    <td id="c7" class="cell"></td>
+                    <td id="c8" class="cell"></td>
+                    <td id="c9" class="cell"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="button-container">
+            <button onclick="reset()" id="reset-button">RESET</button>
+        </div>
+        <div class="result-display-container">
+            <p id="result-display"></p>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>
